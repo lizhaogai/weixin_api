@@ -328,7 +328,7 @@ Weixin.prototype.parse = function () {
 
 Weixin.prototype.sendEmptyMsg = function () {
     if (this.res) {
-        this.res.send("");
+        this.res.end("");
     }
 }
 
